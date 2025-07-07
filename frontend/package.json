@@ -1,0 +1,56 @@
+{
+  "name": "donation-website-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for donation website built with Next.js",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "^14.0.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@next/font": "^14.0.4",
+    "tailwindcss": "^3.3.6",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "@headlessui/react": "^1.7.17",
+    "@heroicons/react": "^2.0.18",
+    "axios": "^1.6.2",
+    "react-hook-form": "^7.48.2",
+    "@hookform/resolvers": "^3.3.2",
+    "yup": "^1.4.0",
+    "react-query": "^3.39.3",
+    "zustand": "^4.4.7",
+    "react-hot-toast": "^2.4.1",
+    "react-loading-skeleton": "^3.3.1",
+    "clsx": "^2.0.0",
+    "framer-motion": "^10.16.16",
+    "react-intersection-observer": "^9.5.3",
+    "swiper": "^11.0.5",
+    "react-share": "^5.0.3",
+    "moment": "^2.29.4",
+    "chart.js": "^4.4.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-dropzone": "^14.2.3",
+    "sharp": "^0.32.6"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@types/react": "^18.2.42",
+    "@types/react-dom": "^18.2.17",
+    "typescript": "^5.3.2",
+    "eslint": "^8.55.0",
+    "eslint-config-next": "^14.0.4",
+    "@tailwindcss/forms": "^0.5.7",
+    "@tailwindcss/typography": "^0.5.10",
+    "@tailwindcss/aspect-ratio": "^0.4.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
